@@ -5,8 +5,8 @@ header{
 	padding: 2em 0;
 }
 
-p{
-color: white;
+h1{
+	color: #F8F9FA;
 	font-size: 2.5em;
 	display: inline-block;
 	position: relative;
@@ -20,6 +20,8 @@ span {
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	box-shadow: -3px -3px 5px #8E8E8F;
+	text-shadow: -2px -2px 2px #8E8E8F;
 }
 
 nav{
