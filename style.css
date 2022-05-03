@@ -1,7 +1,13 @@
+main{
+	background: #00080C;
+}
+
 header{
-	background: black;
+	background: linear-gradient(to right, #000F19, #00151E, #011E26);	
 	width: 100%;
-	position: fixed;
+	position: sticky;
+	top: 0;
+	right: 	0;
 	padding: 2em 0;
 }
 
@@ -37,7 +43,7 @@ nav{
 }
 
 nav a{
-	color: white;
+	color: #F4F3F3;
 	display: inline;
 	margin-left:  30px;
 	font-family: arial;
@@ -50,6 +56,49 @@ nav a{
 nav a:hover{
 	font-size: 23px;
 	cursor: pointer;
-	color: #84A9FF;
+	color: #39E0DB;
 
 }
+
+.sobre{
+	width: 90%;
+	margin: 0 auto;
+	padding: 2% 0;
+	
+}
+
+.sobre-conteudo{
+	position: relative;
+}
+
+#fotoDePerfil{
+	width: 30%;
+	border-radius: 50% 40%;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+h2{
+	font-size: 3em;
+	text-align: center;
+	padding: 5%;
+	color: white;
+}
+
+section{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	position: absolute;
+	bottom: 35%;
+	font-size: 1.5em;
+	margin-left: 10%;
+}
+
+p{
+	color: white;
+}
+
+
+
+
