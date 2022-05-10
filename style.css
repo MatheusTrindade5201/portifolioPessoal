@@ -80,12 +80,6 @@ nav a:hover{
 	vertical-align: baseline;
 }
 
-h2{
-	font-size: 3em;
-	text-align: center;
-	padding: 5%;
-	color: white;
-}
 
 section{
 	display: inline-block;
@@ -97,6 +91,27 @@ section{
 
 p{
 	color: white;
+}
+
+.texto-animado{
+
+	font-size: 3em;
+	text-align: center;
+	padding: 5%;
+	
+	background: linear-gradient(-45deg, #192A7A, #84A9FF, #E6F0FF);
+	background-size: 300%;
+
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	
+	animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+	0% { background-position: 0 50%;;}
+	50% { background-position: 100% 50%;}
+	100% { background-position: 0 50%;}
 }
 
 
