@@ -68,7 +68,9 @@ nav a:hover{
 }
 
 .sobre-conteudo{
-	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 #fotoDePerfil{
@@ -88,11 +90,9 @@ h2{
 section{
 	display: inline-block;
 	width: 50%;
-	vertical-align: top;
-	position: absolute;
-	bottom: 35%;
 	font-size: 1.5em;
-	margin-left: 10%;
+	text-align: justify;
+	
 }
 
 p{
